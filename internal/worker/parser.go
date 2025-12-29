@@ -25,7 +25,7 @@ func ParseSdealWorker(
 	defer wg.Done()
 
 	lineNumber := 0
-	fileName := "SDEAL_20251218_210045.txt" // bisa dibuat dinamis
+	fileName := "data/SDEAL_20251218_210045.txt" // bisa dibuat dinamis
 
 	for {
 		select {

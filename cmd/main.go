@@ -19,7 +19,7 @@ import (
 const (
 	workerCount = 8
 	bufferSize  = 10000
-	txtFilePath = "SDEAL_20251218_210045.txt"
+	txtFilePath = "data/SDEAL_20251218_210045.txt"
 )
 
 func main() {
